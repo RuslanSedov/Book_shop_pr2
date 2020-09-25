@@ -60,7 +60,7 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 main {
-
+    
 
 }
 .left_side_container {
@@ -68,6 +68,8 @@ main {
     width: 25%;
     height: 900px;
     background-color: #f29f33;
+  
+
 }
 .left_logo h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -76,6 +78,8 @@ main {
     padding-left: 5px;
     color: #f29f33;
     letter-spacing: 5px;
+    padding-bottom: 2px;
+  
 }
 .left_rubrics {
     background-color: #f29f33;
@@ -102,6 +106,7 @@ main {
     padding-left: 5px;
     color: #f29f33;
     letter-spacing: 5px;
+    padding-bottom: 2px;
 }
 .about_site_news {
     background-color: #f29f33;
@@ -115,10 +120,33 @@ main {
     float: right;
     width: 75%;
     height: 900px;
-    background-color: whitesmoke;
+    background-color: #dbbe92;
+   
+    
+}
+.content_audio {
+    height: 900px;
+    background-color: #dbbe92;
+}
+.audio_book {
+    padding-left: 30%;
 }
 .sovet_blocks img {
     width: 128px;
     height: 160px;
-    padding-right: 5px;
+    padding-right: 0px;
+    padding-left: 7px;
+}
+.sovet_logo h2, h3 {
+    background-color: #8a2a24;
+    color: #f29f33;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 2px;
+}
+.sovet_logo h3 {
+    margin-top: -7px;
 }
