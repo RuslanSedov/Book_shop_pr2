@@ -1,262 +1,150 @@
 * {
     margin: 0;
-    padding: 0;
-
 }
-
+body {
+    background-color: khaki;
+}
+hr {
+    height: 4px;
+    background-color: darkkhaki;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* !header */
+header {
+    background-color: khaki;
+    height: 138px;
 }
 
-header {
-    background-color: #f29f33;
-    height: 140px;
-    font-size: 0.8em;
-    margin-left: 0px;
-    margin-right: 0px;
-    min-width: 900px;
-    border-bottom: solid 5px #000;
-    
-}
-.logo img {
-    width: 160px;
-    height: 128px;
-    float: left;
-  
-    padding: 5px 0 0 5px;
-}
+
 .logo {
     text-align: center;
-    
 }
-.logo_text h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: xx-large;
-    margin-bottom: 6px;
-    
-}
-.logo_text h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
-}
-nav ul {
-    padding-left: 47%;
-    padding-top: 13px;
-}
-nav ul li {
-    float: left;
-	padding: 0 9px 0 0;
-	list-style: none;
-	margin: 1px 2px 0 0;
-}
-
-nav ul li a {
-	font: normal 100% 'trebuchet ms', sans-serif;
-	display: block;
-	height: 20px;
-	padding: 6px 35px 5px 28px;
-	color: rgba(0, 0, 0, 0.521);
-	text-decoration: none;
-}
-nav ul li a:hover {
-    color: #fffb00;
-   
-	text-decoration: none;
-}
-
-.left_side_container {
-    float: left;
-    width: 25%;
-    height: 700px;
-    background-color: #f29f33;
-  
-
-}
-.left_logo h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
-    background-color: #8a2a24;
-    padding-left: 5px;
-    color: #f29f33;
-    letter-spacing: 5px;
-    padding-bottom: 2px;
-  
-}
-.left_rubrics {
-    background-color: #f29f33;
-}
-.rubrics {
-    list-style-type: none;
-  
-}
-.rubrics li {
-  line-height: 30px;
-}
-.rubrics li a {
-    padding-left: 5px;
-    text-decoration: none;
-    color: black;
-}
-.rubrics li a:hover {
-    color:  #fffb00;
-}
-.about_site_news_logo h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
-    background-color: #8a2a24;
-    padding-left: 5px;
-    color: #f29f33;
-    letter-spacing: 5px;
-    padding-bottom: 2px;
-}
-.about_site_news {
-    background-color: #f29f33;
-    padding-left: 5px;
-    text-decoration: none;
-    color: black;
-    padding-bottom: 6px;
-    padding-top: 6px;
-}
-.content {
-    float: none;
-    width: 100%;
-    height: 700px;
-    background-color: #dbbe92;
-   
-    
-}
-.content_audio {
-    height: 800px;
-    background-color: #dbbe92;
-}
-.audio_book {
-    padding-top: 14px;
-    padding-left: 1%;
-    float: left;
-
-}
-.sovet_blocks img {
+.logo img {
     width: 128px;
-    height: 160px;
-    padding-right: 0px;
-    padding-left: 7px;
-}
-.sovet_logo h2, h3 {
-    background-color: #8a2a24;
-    color: #f29f33;
-    letter-spacing: 5px;
-    text-align: center;
-    margin-bottom: 7px;
-    font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-bottom: 2px;
-}
-.sovet_logo h3 {
-    margin-top: -7px;
-}
-.books {
-    background-color: #dbbe92;
-    height: 1360px;
-}
-.books_logo img {
-    width: 256px;
-    height: 320px;
-    padding: 20px 0 0 20px;
+    height: 128px;
     float: left;
+    padding: 5px 0 0 5px;
 }
-.books_name {
+/* ! Пасхалка */
+ .pashal {
+    padding-left: 35%;
+    padding-bottom: 8px;
+}
+.pashalka {
+    width: 400px;
+    height: 320px;
+    display: block;
+    background: url(assets/img/book.gif);
+    background-repeat: repeat;
+}
+.pashalka:hover {
+   background: url(assets/img/смайлик.png);
+   width: 480px;
+   height: 480px;
+}
+/* ! */
+.logo_text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo_text h1 a, .logo_text h2 a {
+    color: #000;
+    text-decoration: none;
+}
+.logo_text h1 a:hover, .logo_text h2 a:hover {
+    color: darkred;
+}
+
+nav {
+    padding-top: 30px;
+}
+nav a {
+    padding-right: 4px;
+    padding-left: 4px;
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+/* !main */
+
+/* *left */
+.site_left {
+    float: left;
+    width: 16%;
+    border-bottom: solid 3px darkkhaki;
+    border-right: solid 3px darkkhaki;
+}
+.left_menubar {
+    background-color: khaki;
+    line-height: 30px;
+}
+.left_menubar h2, .left_menubar h3 {
+    letter-spacing: 5px;
+    background-color: darkred;
+    color: khaki;
+}
+.left_menubar a, p {
+    padding-left: 4px;
+    text-decoration: none;
+    color: #000;
+}
+.left_menubar a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+/* *content */
+.site_content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.site_content h1, .site_content h2, .site_content h3 {
     text-align: center;
-    padding-top: 5px;
-    background-color: #dbbe92;
-    padding-bottom: 14px;
+    padding-bottom: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.site_content p {
+    font-size: 130%;
+    text-decoration: none;
+    padding: 0 8px 8px 8px;
 
 }
-.books_content {
-    text-align: right;
-    font-size: 150%;
-    padding-right: 9px;
-    padding-bottom: 280px;
-}
-.books_content p {
-    padding-top: 9px;
-
-}
-.books_content a {
+.site_content p a {
     text-decoration: none;
     color: darkred;
-    }
-.books_content_name, .books_content_name h2  {
-    text-align: center;
-    background-color: #8a2a24;
-    color: #f29f33;
-    letter-spacing: 5px;
-    border-bottom: solid 3px #00000057;
-    border-top: solid 3px #00000057;
-    
-    
-   
 }
-.books_content_a {
-    
-    padding-left: 9px;
-    font-size: 150%;
+.site_content img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    padding-right: 8px;
 }
-.books_content_a a {
-text-decoration: none;
-color: darkred;
+.books img {
+    width: 160px;
+    height: 220px;
+    padding: 4px;
 }
-.books_content_a a:hover {
-    text-decoration: underline;
+.first_book {
+    padding-left: 8px;
 }
+
+
 footer {
-    height: 75px;
     text-align: center;
-    background-color: #f29f33;
-    float: none;
-    min-width: 900px;
+    width: 100%;
+    height: 70px;
+    margin-top: 300px;
+    padding-top: 8px;
+    float: left;
+    border-top: solid 4px darkkhaki;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer h4:hover, footer p:hover {
+    color: darkred;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-::-webkit-scrollbar-button {
-    background-repeat:no-repeat;
-    width:5px;
-    height:0px
-    }
-    
-    ::-webkit-scrollbar-track {
-    background-color: #8a2a24;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 0px;
-    border-radius: 15px;
-    background-color: beige;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover{
-    background-color: #f29f33;
-    }
-    
-    ::-webkit-resizer{
-    width:6px;
-    height:0px
-    }
-    
-    ::-webkit-scrollbar{
-    width: 6px;
-    }
 
